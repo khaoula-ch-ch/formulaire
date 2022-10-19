@@ -1,0 +1,72 @@
+<label>Platforme :</label>
+		<select name="Platforme">
+		 <option value="windows">windows</option>
+		 <option value="macintosh">macintosh</option>
+		 <option value="unix">unix</option>
+		</select>
+		<br><br>
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>éage1</title>
+		<meta name="keywords" content="web,html">
+		<script src="nv.js">
+		</script>
+	</head>
+	<body>
+	<form method="POST" action="reception.PHP">
+	   <fieldset>
+	     <legend><b>Candidat:</b></legend>
+		 <fieldset>
+	     <legend><b>Identitie</b></legend>
+		    <label> Sexe </label>
+			<select name="Sexe">
+				   <option value ="femme">femme </option>
+				   <option value ="homme">homme </option>
+		    </select>
+		    <label> Situation </label>
+		    <select name="Situation">
+				   <option value ="marier">marier </option>
+				   <option value ="celibataire">celibataire</option>
+				   <option value ="devorcer">devorcer </option>
+		    </select><br><br>
+			<label> Nom \ Prenom</label>
+			<input type="text" name="ecrire nom prenom"><br><br>
+			<label> adresse </label><br><br>
+	        <textarea rows="5" cols="25">
+						Rue No &#10Boite postal
+		    </textarea><br><br>
+			<label> code postale \ ville </label>
+			<input type="text" name="code ">
+			<input type="text" name="ville">
+			 <label>wilaya</label>
+		    <select name="wilaya">
+				   <option value ="alger">16 alger</option>
+				   <option value ="adrar">01 adrar</option>
+				   <option value ="blida">09 blida </option>
+		    </select><br><br>
+	   </fieldset>
+	   <fieldset>
+		<legend><b> connaissence en informatique </b> </legend>
+		<label> Platforme : </label>
+		<input type="radio" name="Platforme" value="windows"> windows
+		<input type="radio" name="Platforme" value="macintosh">macintoch
+		<input type="radio" name="Platforme" valua="unix">unix
+		<br><br>
+		<label> application </label>
+		<select name="aplication">
+		  <option value="bureautique">bureautique</option>
+		  <option value="info">info</option>
+		</select>
+	  </fieldset>
+	  <label> Envotez nous votre cv </label>
+	  <input type="file" accept=".pdf ,.docx"> (pdf docx )
+	  </fieldset>
+	  <input type ="submit" value =" valider" >
+		<input type ="reset" value="effacer" >
+	  </form>
+	  </body>
+	</html>
+	  
+	     
